@@ -2,6 +2,8 @@
 # Simple Stub Service
 桩服务
 
+[![License][license-badge]][license-badge-url]
+
 # <center>桩服务配置与使用的方法</center>
 
 ## 配置桩映射
