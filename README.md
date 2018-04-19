@@ -3,9 +3,9 @@
 
 ## 配置桩映射
 
-### 1. 打开WEB-INF/classes/conf/stub-config.properties
+### 1. 打开 WEB-INF/classes/conf/stub-config.properties
 
-### 2. 添加stub[i].response.contentType和stub[i].response.data响应配置
+### 2. 添加 stub[i].response.contentType和stub[i].response.data 响应配置
 
 #### stub[i].response.contentType：响应数据的内容类型，可取值支持各种数据类型:
 
@@ -15,6 +15,8 @@
     ...
 
 #### stub[i].response.data：响应数据的内容，以[BINARY:]开头的Base64数据被当做二进制内容处理。根据stub[i].response.contentType内容类型的不同显示对应格式的数据。
+
+### 3. 添加 stub[i].response.processTimeMillis 配置，设定任务完成的毫秒数
 
 ## 访问桩服务的方法
 
