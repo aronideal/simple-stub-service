@@ -32,6 +32,4 @@
 
 Stub 0 - [EXTERNAL_URL]/stub/0
 
-# License
-The MIT License is here, [LICENSE](./LICENSE).
 
